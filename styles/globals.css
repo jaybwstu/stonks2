@@ -90,12 +90,12 @@ button.wallet-adapter-button-trigger {
   color: rgb(var(--foreground-rgb)) !important;
   border: 1px solid rgb(var(--tertiary-background-rgb)) !important;
   border-radius: var(--border-radius) !important;
-  background-color: #BA4564;
+  background-color: #be627b;
   font-family: acier-bat-solid;
 }
 
 button.wallet-adapter-button-trigger:hover {
-  background-color: rgb(var(--hover-background-rgb)) !important;
+  background-color: #ab9ff2;
 }
 
 .h-cont {
