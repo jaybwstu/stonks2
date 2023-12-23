@@ -8,9 +8,8 @@
 
 .center {
   position: relative;
-  padding: 3rem;
-  width: 100%;
-  max-width: 600px;
+  padding-top: 3rem;
+  width: fit-content;
   margin: 0 auto;
 }
 
@@ -26,7 +25,7 @@
   align-items: center;
   gap: 1rem;
   color: rgb(var(--on-accent-rgb));
-  background-color: rgb(var(--accent-rgb));
+  background-color: #02395d;
   border: none;
   border-radius: var(--border-radius);
   padding: 1rem;

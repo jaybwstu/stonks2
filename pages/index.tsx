@@ -206,7 +206,7 @@ export default function Home() {
           <CardHeader backgroundColor='#fbf3e2'>
             <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
-                <Heading size='md'>{headerText}</Heading>
+                <Heading color= '#02395d' size='md'>{headerText}</Heading>
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" >
@@ -311,7 +311,7 @@ export default function Home() {
           <a href="https://soulagain.crypto-elites.club/" className="Navhome">
             Home
           </a>
-          <WalletMultiButtonDynamic />
+          <WalletMultiButtonDynamic lineHeight='1.45'/>
         </div>
         
       </div>

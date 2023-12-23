@@ -158,3 +158,7 @@ button.wallet-adapter-button-trigger:hover {
     width: 100%;
   }
 }
+
+@media (max-width: 800px) {
+  
+}
