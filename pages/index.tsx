@@ -197,6 +197,7 @@ export default function Home() {
             }
             main {
               height: 100vh;
+              width: 100vw;
             }
    `}
         </style>
@@ -298,11 +299,27 @@ export default function Home() {
   return (
     <main>
       <div className={styles.wallet}>
+        <div className="h-cont">
+          <div className="left-sect">
+            <a href="https://soulagain.crypto-elites.club/" target="_blank">
+              <img className="logo" src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
+            </a>
+            <a href="https://runonflux.io/fluxlabs.html" target="_blank">
+              <img className="logo-flux" src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
+            </a>
+          </div>
+          <a href="https://soulagain.crypto-elites.club/" className="Navhome">
+            Home
+          </a>
+        </div>
         <WalletMultiButtonDynamic />
       </div>
 
       <div className={styles.center}>
         <PageContent key="content" />
+      </div>
+      <div className="footer">
+        <p>2023 CEC</p>
       </div>
     </main>
   );
