@@ -202,8 +202,8 @@ export default function Home() {
             }
    `}
         </style>
-        <Card  backgroundColor='#fbf3e2'>
-          <CardHeader>
+        <Card >
+          <CardHeader backgroundColor='#fbf3e2'>
             <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
                 <Heading size='md'>{headerText}</Heading>
