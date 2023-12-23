@@ -311,7 +311,7 @@ export default function Home() {
           <a href="https://soulagain.crypto-elites.club/" className="Navhome">
             Home
           </a>
-          <WalletMultiButtonDynamic lineHeight='1.45'/>
+          <WalletMultiButtonDynamic/>
         </div>
         
       </div>
