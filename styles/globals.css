@@ -126,7 +126,7 @@ button.wallet-adapter-button-trigger:hover {
   display: flex;
   justify-content: center;
   width: 70%;
-  margin-right: 20px;
+  margin-right: 55px;
 }
 .footer {
   background-color: #02395d;
@@ -138,4 +138,6 @@ button.wallet-adapter-button-trigger:hover {
   font-size: 24px;
   text-align: center;
   width: 100%;
+  position: absolute;
+  bottom: 0px;
 }

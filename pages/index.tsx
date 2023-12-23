@@ -194,6 +194,7 @@ export default function Home() {
               background-repeat: no-repeat;
               background-size: cover;
               background-position: 50% 50%;
+              font-family: acier-bat-solid, sans-serif;
             }
             main {
               height: 100vh;
