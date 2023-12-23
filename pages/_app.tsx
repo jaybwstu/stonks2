@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta
           property="og:image"
-          content={image}
+          content={"https://soulagain.crypto-elites.club/assets/images/SAlogo-og.png"}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{headerText}</title>
