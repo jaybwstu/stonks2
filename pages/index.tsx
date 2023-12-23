@@ -180,7 +180,20 @@ export default function Home() {
         <style jsx global>
           {`
       body {
-          font-family: acier-bat-solid,sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 48px;
+        min-height: 100vh;
+        background-color: #fbf3e2;
+        color: #02395d;
+        font-size: 20px;
+        line-height: 1.45;
+        margin: 0;
+        background-image: url(https://soulagain.crypto-elites.club/assets/images/bg/spiral2.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
        }
    `}
         </style>
