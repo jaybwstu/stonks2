@@ -311,8 +311,9 @@ export default function Home() {
           <a href="https://soulagain.crypto-elites.club/" className="Navhome">
             Home
           </a>
+          <WalletMultiButtonDynamic />
         </div>
-        <WalletMultiButtonDynamic />
+        
       </div>
 
       <div className={styles.center}>
