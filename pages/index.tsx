@@ -180,7 +180,7 @@ export default function Home() {
         <style jsx global>
           {`
       body {
-          background: #2d3748; 
+          font-family: acier-bat-solid,sans-serif;
        }
    `}
         </style>

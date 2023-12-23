@@ -1,9 +1,18 @@
+@font-face {
+  font-family: "acier-bat-solid";
+  src: url("https://use.typekit.net/af/4a14d5/00000000000000007735dfb6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+       url("https://use.typekit.net/af/4a14d5/00000000000000007735dfb6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+       url("https://use.typekit.net/af/4a14d5/00000000000000007735dfb6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: "acier-bat-solid", "sans serif";
 
     --accent-rgb: 52, 211, 153;
     --darker-accent-rgb: 0, 204, 150;
@@ -47,8 +56,20 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  min-height: 100vh;
+  background-color: #fbf3e2;
+  color: #02395d;
+  font-size: 20px;
+  line-height: 1.45;
+  margin: 0;
+  background-image: url(https://soulagain.crypto-elites.club/assets/images/bg/spiral2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 a {
