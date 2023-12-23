@@ -206,12 +206,12 @@ export default function Home() {
           <CardHeader backgroundColor='#fbf3e2'>
             <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
-                <Heading color= '#02395d' size='md'>{headerText}</Heading>
+                <Heading color= '#02395d' fontFamily='acier-bat-solid' size='md'>{headerText}</Heading>
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" >
                   <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} p={2} >
-                    <VStack fontFamily='acier-bat-solid'>
+                    <VStack >
                       <Text color= '#02395d' fontFamily='acier-bat-solid' fontWeight={"semibold"}>Available NFTs: {Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
                     </VStack>
                   </Box>
