@@ -202,7 +202,7 @@ export default function Home() {
             }
    `}
         </style>
-        <Card>
+        <Card backgroundColor='#Ffbf3e2'>
           <CardHeader>
             <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
