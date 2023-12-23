@@ -16,7 +16,7 @@
 .form > * + * {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 .form button {
