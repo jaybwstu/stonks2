@@ -11,4 +11,4 @@ export const mintText = [
 export const image = "https://avatars.githubusercontent.com/u/93528482?v=4";
 
 //website title
-export const headerText = "MarkSackerberg's mint UI";
+export const headerText = "Gateway To Your Soul";
