@@ -141,3 +141,20 @@ button.wallet-adapter-button-trigger:hover {
   position: absolute;
   bottom: 0px;
 }
+
+@media (max-width: 800px) {
+  .Navhome {
+    display: none;
+  }
+  .logo {
+    max-height: 90px;
+    height: 90px;
+  }
+  .logo-flux {
+    max-height: 90px;
+    height: 90px;
+  }
+  .left-sect {
+    width: 100%;
+  }
+}
