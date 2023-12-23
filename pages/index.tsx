@@ -204,15 +204,15 @@ export default function Home() {
         </style>
         <Card>
           <CardHeader>
-            <Flex minWidth='max-content' alignItems='center' gap='2'>
+            <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
                 <Heading size='md'>{headerText}</Heading>
               </Box>
               {loading ? (<></>) : (
-                <Flex justifyContent="flex-end" marginLeft="auto">
-                  <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} minHeight={"50px"} p={2} >
+                <Flex justifyContent="flex-end" >
+                  <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} p={2} >
                     <VStack >
-                      <Text fontSize={"sm"}>Available NFTs:</Text>
+                      <Text >Available NFTs:</Text>
                       <Text fontWeight={"semibold"}>{Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
                     </VStack>
                   </Box>
@@ -232,7 +232,7 @@ export default function Home() {
                   height={230}
                   objectFit={'cover'}
                   alt={"project Image"}
-                  src={image}
+                  src={'https://soulagain.crypto-elites.club/assets/images/nft/character1.gif'}
                 />
               </Box>
             </Center>
