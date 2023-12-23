@@ -33,9 +33,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:title" content={headerText} />
         <meta
           property="og:description"
-          content="Gateway To Your Soul"
+          content="Gateway to Your Soul"
         />
-        <meta name="description" content="Gateway To Your Soul" />
+        <meta name="description" content="Gateway to Your Soul" />
 
         <meta
           property="og:image"

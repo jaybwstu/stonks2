@@ -202,7 +202,7 @@ export default function Home() {
             }
    `}
         </style>
-        <Card backgroundColor='#Ffbf3e2'>
+        <Card>
           <CardHeader>
             <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
@@ -220,7 +220,7 @@ export default function Home() {
             </Flex>
           </CardHeader>
 
-          <CardBody>
+          <CardBody backgroundColor='#Ffbf3e2'>
             <Center>
               <Box
                 rounded={'lg'}
