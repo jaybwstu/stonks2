@@ -301,10 +301,10 @@ export default function Home() {
       <div className={styles.wallet}>
         <div className="h-cont">
           <div className="left-sect">
-            <a href="https://soulagain.crypto-elites.club/" target="_blank">
+            <a href="https://soulagain.crypto-elites.club/">
               <img className="logo" src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
             </a>
-            <a href="https://runonflux.io/fluxlabs.html" target="_blank">
+            <a href="https://runonflux.io/fluxlabs.html">
               <img className="logo-flux" src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
             </a>
           </div>
