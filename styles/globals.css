@@ -82,7 +82,9 @@ a {
     color-scheme: dark;
   }
 }
-
+button.wallet-adapter-button-trigger {
+  line-height: 1.45;
+}
 button.wallet-adapter-button-trigger {
   cursor: pointer;
   color: rgb(var(--foreground-rgb)) !important;
