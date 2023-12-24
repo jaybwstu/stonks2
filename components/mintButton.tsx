@@ -423,7 +423,7 @@ export function ButtonList({
                     }
                 </Flex>
             </HStack>
-            <SimpleGrid columns={2} spacing={5}>
+            <SimpleGrid columns={1}>
                 <Text pt='2' fontSize='sm'>
                     {buttonGuard.mintText}
                 </Text>
