@@ -8,9 +8,8 @@
 
 .center {
   position: relative;
-  padding-top: 3rem;
   width: fit-content;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 .form > * + * {
