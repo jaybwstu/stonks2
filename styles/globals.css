@@ -164,6 +164,9 @@ button.wallet-adapter-button-trigger:hover {
   }
 }
 
-@media (max-width: 800px) {
-  
+@media (max-height: 800px) {
+  .footer {
+    height: 50px;
+    position: relative;
+  }
 }

@@ -13,10 +13,10 @@ interface TraitsProps {
 }
 const Trait = ({ heading, description }: TraitProps) => {
     return (
-        <Box background={"teal.100"} borderRadius={"5px"} width={"120px"} minHeight={"50px"}>
+        <Box background={"#02395d"} borderRadius={"5px"} width={"120px"} minHeight={"50px"}>
             <VStack>
-                <Text fontSize={"sm"}>{heading}</Text>
-                <Text fontSize={"sm"} marginTop={"-2"} fontWeight={"semibold"}>{description}</Text>
+                <Text fontSize={"sm"} color={"#fbf3e2"}>{heading}</Text>
+                <Text fontSize={"sm"} color={"#fbf3e2"} marginTop={"-2"} fontWeight={"semibold"}>{description}</Text>
             </VStack>
         </Box>
 
@@ -57,11 +57,12 @@ export default function Card({ metadata }: { metadata: JsonMetadata }) {
                 position="relative"
                 backgroundPosition="center"
                 backgroundRepeat="no-repeat"
+                backgroundColor="#fbf3e2"
                 backgroundSize="cover"
                 backgroundImage={`url(${image})`}
             />
-            <Text fontWeight={"semibold"} marginTop={"15px"}>{metadata.name}</Text>
-            <Text>{metadata.description}</Text>
+            <Text fontWeight={"semibold"} color={"#02395d"}marginTop={"15px"}>{metadata.name}</Text>
+            <Text color={"#02395d"}>{metadata.description}</Text>
             <Traits metadata={metadata} />
         </Box>
     );
