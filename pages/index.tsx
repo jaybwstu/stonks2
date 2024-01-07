@@ -339,7 +339,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="header"{styles.wallet}>
+      <div className={`header ${styles.wallet}`}>
         <div className="h-cont">
           <div className="left-sect">
             <a href="https://soulagain.crypto-elites.club/">
