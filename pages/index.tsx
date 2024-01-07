@@ -265,7 +265,7 @@ export default function Home() {
                         <span className="social_hov_shape1"><img src="https://soulagain.crypto-elites.club/assets/images/icon/S7.svg" alt="Soul Again S logo" /></span>
                       </li>
                       <li className="social_hov_shape_show">
-                        <a href="https://t.me/crypto_elites_club">
+                        <a href="https://www.tensor.trade/trade/fluxsoulagain">
                           <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" /></span>
                         </a>
                         <span className="social_hov_shape1"><img src="https://soulagain.crypto-elites.club/assets/images/icon/S7.svg" alt="Soul Again S logo" /></span>
