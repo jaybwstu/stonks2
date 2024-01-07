@@ -200,6 +200,21 @@ export default function Home() {
               height: 100vh;
               width: 100vw;
             }
+            @media (min-width: 1920px) and (min-height: 1080px) {
+              body {
+                font-size: 36px;
+              }
+            }
+            @media (min-width: 2560px) and (min-height: 1440px) {
+              body {
+                font-size: 59px;
+              }
+            }
+            @media (min-width: 3840px) and (min-height: 2160px) {
+              body {
+                font-size: 94px;
+              }
+            }
    `}
         </style>
         <Card >
