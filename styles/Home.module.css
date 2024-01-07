@@ -127,3 +127,21 @@
 .success:hover code {
   color: rgb(var(--accent-rgb));
 }
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .wallet {
+    height: 125px;
+  }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+  .wallet {
+    height: 150px;
+  }
+}
+
+@media (min-width: 3840px) and (min-height: 2160px) {
+  .wallet, .footer {
+    height: 298px;
+  }
+}
