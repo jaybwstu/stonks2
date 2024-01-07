@@ -155,6 +155,9 @@ button.wallet-adapter-button-trigger:hover {
 }
 
 @media (min-width: 1920px) and (min-height: 1080px) {
+  body {
+    font-size: 36px;
+  }
   .h-cont, .footer {
     height: 125px;
   }
@@ -164,6 +167,9 @@ button.wallet-adapter-button-trigger:hover {
 }
 
 @media (min-width: 2560px) and (min-height: 1440px) {
+  body {
+    font-size: 59px;
+  }
   .h-cont, .footer {
     height: 150px;
   }
@@ -181,6 +187,9 @@ button.wallet-adapter-button-trigger:hover {
 }
 
 @media (min-width: 3840px) and (min-height: 2160px) {
+  body {
+    font-size: 94px;
+  }
   .h-cont, .footer {
     height: 298px;
   }
