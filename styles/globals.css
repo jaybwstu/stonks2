@@ -167,6 +167,14 @@ button.wallet-adapter-button-trigger:hover {
   .h-cont, .footer {
     height: 150px;
   }
+  .logo {
+    max-height: 120px;
+    height: 120px;
+  }
+  .logo-flux {
+    max-height: 120px;
+    height: 120px;
+  }
   .Navhome, .footer {
     font-size: 47px;
   }
@@ -175,6 +183,14 @@ button.wallet-adapter-button-trigger:hover {
 @media (min-width: 3840px) and (min-height: 2160px) {
   .h-cont, .footer {
     height: 298px;
+  }
+  .logo {
+    max-height: 220px;
+    height: 220px;
+  }
+  .logo-flux {
+    max-height: 220px;
+    height: 220px;
   }
   .Navhome, .footer {
     font-size: 70px;
