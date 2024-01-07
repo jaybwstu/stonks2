@@ -354,9 +354,7 @@ export default function Home() {
           </a>
           <WalletMultiButtonDynamic/>
         </div>
-        
       </div>
-
       <div className={styles.center}>
         <PageContent key="content" />
       </div>
