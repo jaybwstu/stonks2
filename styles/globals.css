@@ -155,16 +155,16 @@ button.wallet-adapter-button-trigger:hover {
 }
 
 @media (min-width: 1920px) and (min-height: 1080px) {
-  .wallet, .footer {
+  .h-cont, .footer {
     height: 125px;
   }
-  .Navhome, .footer {
+  .h-cont, .footer {
     font-size: 33px;
   }
 }
 
 @media (min-width: 2560px) and (min-height: 1440px) {
-  .wallet, .footer {
+  .h-cont, .footer {
     height: 150px;
   }
   .Navhome, .footer {
@@ -173,7 +173,7 @@ button.wallet-adapter-button-trigger:hover {
 }
 
 @media (min-width: 3840px) and (min-height: 2160px) {
-  .wallet, .footer {
+  .h-cont, .footer {
     height: 298px;
   }
   .Navhome, .footer {
