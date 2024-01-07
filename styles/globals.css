@@ -155,9 +155,6 @@ button.wallet-adapter-button-trigger:hover {
 }
 
 @media (min-width: 1440px) and (min-height: 810px) {
-  main {
-    font-size: 29px;
-  }
   .title {
     font-size: 41px;
   }
@@ -173,7 +170,7 @@ button.wallet-adapter-button-trigger:hover {
     height: 58px;
     width: 58px;
   }
-  .icon-tabler-brand-reddit-filled {
+  .icon-tabler-brand-sniper-filled {
     height: 42px;
     width: 42px;
   }
@@ -231,7 +228,7 @@ button.wallet-adapter-button-trigger:hover {
     height: 114px;
     width: 114px;
   }
-  .icon-tabler-brand-reddit-filled {
+  .icon-tabler-brand-sniper-filled {
     height: 82px;
     width: 82px;
   }
@@ -260,7 +257,7 @@ button.wallet-adapter-button-trigger:hover {
     height: 170px;
     width: 170px;
   }
-  .icon-tabler-brand-reddit-filled {
+  .icon-tabler-brand-sniper-filled {
     height: 123px;
     width: 123px;
   }
