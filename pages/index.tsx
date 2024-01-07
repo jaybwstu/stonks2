@@ -187,7 +187,7 @@ export default function Home() {
               min-height: 100vh;
               background-color: #fbf3e2;
               color: #02395d;
-              font-size: 20px;
+              font-size: 29px;
               line-height: 1.45;
               margin: 0;
               background-image: url(https://soulagain.crypto-elites.club/assets/images/bg/spiral2.gif);
