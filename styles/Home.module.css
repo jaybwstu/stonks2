@@ -65,7 +65,7 @@
   border-radius: var(--border-radius);
   background: rgb(var(--secondary-background-rgb));
   color: rgb(var(--hint-rgb));
-  font-size: 1rem;
+  font-size: inherit;
   line-height: 1.5;
 }
 

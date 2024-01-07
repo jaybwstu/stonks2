@@ -424,7 +424,7 @@ export function ButtonList({
                 </Flex>
             </HStack>
             <SimpleGrid columns={1}>
-                <Text pt='2' fontSize='sm'>
+                <Text pt='2' fontSize='inherit'>
                     {buttonGuard.mintText}
                 </Text>
                 <VStack>
