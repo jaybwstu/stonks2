@@ -243,7 +243,7 @@ export default function Home() {
                 pos={'relative'}>
                 <Image
                   rounded={'lg'}
-                  height={'60%'}
+                  height={'6rem'}
                   objectFit={'cover'}
                   alt={"project Image"}
                   src={'https://soulagain.crypto-elites.club/assets/images/nft/character1.gif'}
