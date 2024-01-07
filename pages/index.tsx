@@ -221,7 +221,7 @@ export default function Home() {
           <CardHeader backgroundColor='#fbf3e2'>
             <Flex minWidth='max-content' flexDirection='column-reverse' alignItems='center' gap='2'>
               <Box>
-                <Heading color= '#02395d' fontFamily='acier-bat-solid' size='md'>{headerText}</Heading>
+                <Heading color= '#02395d' fontFamily='acier-bat-solid' size='inherit'>{headerText}</Heading>
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" >
