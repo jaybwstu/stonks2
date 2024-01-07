@@ -236,7 +236,7 @@ export default function Home() {
               </Box>
             </Center>
             <div className="social-container">
-              <a href="https://discord.gg/cryptoelitesclub" target="_blank">
+              <a href="https://discord.gg/cryptoelitesclub" target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -258,7 +258,7 @@ export default function Home() {
                 </svg>
               </a>
 
-              <a href="https://www.facebook.com/cryptoelitesclub" target="_blank">
+              <a href="https://www.facebook.com/cryptoelitesclub" target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -280,7 +280,7 @@ export default function Home() {
                 </svg>
               </a>
                           
-              <a href="https://magiceden.io/marketplace/fluxsoulagain" target="_blank">
+              <a href="https://magiceden.io/marketplace/fluxsoulagain" target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -302,7 +302,7 @@ export default function Home() {
                 </svg>
               </a>
             
-              <a href="https://www.reddit.com/r/cryptoelitesclub/" target="_blank">
+              <a href="https://www.reddit.com/r/cryptoelitesclub/" target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -324,7 +324,7 @@ export default function Home() {
                 </svg>
               </a>
                             
-              <a href="https://twitter.com/crypto_e_club" target="_blank">
+              <a href="https://twitter.com/crypto_e_club" target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
