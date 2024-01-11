@@ -98,10 +98,6 @@ button.wallet-adapter-button-trigger {
 button.wallet-adapter-button-trigger:hover {
   background-color: #ab9ff2 !important;
 }
-.inheritFontSize {
-  font-size: inherit;
-  /* Add any other styles you need */
-}
 
 .h-cont {
   display: flex;
