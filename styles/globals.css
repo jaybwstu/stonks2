@@ -92,7 +92,7 @@ button.wallet-adapter-button-trigger {
   border-radius: 2.2rem;
   background-color: #BA4564;
   font-family: acier-bat-solid;
-  font-size: 3vh;
+  font-size: 2.5vh;
   height: fit-content;
 }
 
@@ -244,7 +244,7 @@ button.wallet-adapter-button-trigger:hover {
     padding-right: 20px; 
   }
   button.wallet-adapter-button-trigger {
-    font-size: 1vh;
+    font-size: 3vh;
   }
   .social_img {
     width: 5vw;
