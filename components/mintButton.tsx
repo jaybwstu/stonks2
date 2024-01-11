@@ -415,11 +415,11 @@ export function ButtonList({
                 <Flex justifyContent="flex-end" marginLeft="auto">
                     {
                         buttonGuard.endTime > createBigInt(0) && buttonGuard.endTime - solanaTime > createBigInt(0) && (!buttonGuard.startTime || buttonGuard.startTime - solanaTime <= createBigInt(0)) &&
-                        <><Text fontSize="sm" marginRight={"2"} >Ending in: </Text><Timer toTime={buttonGuard.endTime} solanaTime={solanaTime} setCheckEligibility={setCheckEligibility} /></>
+                        <><Text fontSize="inherit" marginRight={"2"} >Ending in: </Text><Timer toTime={buttonGuard.endTime} solanaTime={solanaTime} setCheckEligibility={setCheckEligibility} /></>
                     }
                     {
                         buttonGuard.startTime > createBigInt(0) && buttonGuard.startTime - solanaTime > createBigInt(0) && (!buttonGuard.endTime || solanaTime - buttonGuard.endTime <= createBigInt(0)) &&
-                        <><Text fontSize="sm" marginRight={"2"} >Starting in: </Text><Timer toTime={buttonGuard.startTime} solanaTime={solanaTime} setCheckEligibility={setCheckEligibility} /></>
+                        <><Text fontSize="inherit" marginRight={"2"} >Starting in: </Text><Timer toTime={buttonGuard.startTime} solanaTime={solanaTime} setCheckEligibility={setCheckEligibility} /></>
                     }
                 </Flex>
             </HStack>
@@ -429,7 +429,7 @@ export function ButtonList({
                 </Text>
                 <VStack>
                     {process.env.NEXT_PUBLIC_MULTIMINT && buttonGuard.allowed ?
-                        <NumberInput value={numberInputValues[buttonGuard.label] || 1} min={1} max={buttonGuard.maxAmount < 1 ? 1 : buttonGuard.maxAmount} size="sm" isDisabled={!buttonGuard.allowed} onChange={(valueAsString, valueAsNumber) => handleNumberInputChange(buttonGuard.label, valueAsNumber)}>
+                        <NumberInput value={numberInputValues[buttonGuard.label] || 1} min={1} max={buttonGuard.maxAmount < 1 ? 1 : buttonGuard.maxAmount} size="inherit" isDisabled={!buttonGuard.allowed} onChange={(valueAsString, valueAsNumber) => handleNumberInputChange(buttonGuard.label, valueAsNumber)}>
                             <NumberInputField />
                             <NumberInputStepper>
                                 <NumberIncrementStepper />
@@ -459,7 +459,7 @@ export function ButtonList({
                                 )
                             }
                             key={buttonGuard.label}
-                            size="sm"
+                            size="inherit"
                             backgroundColor="teal.100"
                             isDisabled={!buttonGuard.allowed}
                             isLoading={

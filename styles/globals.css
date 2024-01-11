@@ -63,7 +63,7 @@ body {
   min-height: 100vh;
   background-color: #fbf3e2;
   color: #02395d;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.45;
   margin: 0;
   background-image: url(https://soulagain.crypto-elites.club/assets/images/bg/spiral2.gif);
@@ -126,7 +126,6 @@ button.wallet-adapter-button-trigger:hover {
 .Navhome {
   color: #FBF3E2;
   text-decoration: none;
-  font-size: 24px;
   display: flex;
   justify-content: center;
   width: 70%;
