@@ -227,7 +227,7 @@ export default function Home() {
                 <Flex justifyContent="flex-end" >
                   <Box background={"#BA4564"} borderRadius={"5px"} minWidth={"50px"} p={2} >
                     <VStack >
-                      <Text color= '#02395d' fontFamily='acier-bat-solid' fontWeight={"semibold"}>Available NFTs: {Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
+                      <Text color= '#fbf3e2' fontFamily='acier-bat-solid' fontWeight={"semibold"}>Available NFTs: {Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
                     </VStack>
                   </Box>
                 </Flex>

@@ -460,6 +460,7 @@ export function ButtonList({
                             }
                             key={buttonGuard.label}
                             size="inherit"
+                            width="100%"
                             backgroundColor="teal.100"
                             isDisabled={!buttonGuard.allowed}
                             isLoading={
