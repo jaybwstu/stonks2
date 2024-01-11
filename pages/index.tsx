@@ -225,7 +225,7 @@ export default function Home() {
               </Box>
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" width={"100%"}>
-                  <Box background={"#BA4564"} borderRadius={"5px"} minWidth={"50px"} width={"100%"} p={2} >
+                  <Box background={"#02395d"} borderRadius={"5px"} minWidth={"50px"} width={"100%"} p={2} >
                     <VStack >
                       <Text color= '#fbf3e2' fontFamily='acier-bat-solid' fontWeight={"semibold"}>Available NFTs: {Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
                     </VStack>
@@ -264,7 +264,7 @@ export default function Home() {
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://www.sniper.xyz/collection/soul-again">
-                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" />
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" style="width= fit-content; height= fit-content;"/>
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
