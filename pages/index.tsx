@@ -224,8 +224,8 @@ export default function Home() {
                 <Heading color= '#02395d' fontFamily='acier-bat-solid' size='inherit'>{headerText}</Heading>
               </Box>
               {loading ? (<></>) : (
-                <Flex justifyContent="flex-end" >
-                  <Box background={"#BA4564"} borderRadius={"5px"} minWidth={"50px"} p={2} >
+                <Flex justifyContent="flex-end" width={"100%"}>
+                  <Box background={"#BA4564"} borderRadius={"5px"} minWidth={"50px"} width={"100%"} p={2} >
                     <VStack >
                       <Text color= '#fbf3e2' fontFamily='acier-bat-solid' fontWeight={"semibold"}>Available NFTs: {Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
                     </VStack>
@@ -243,7 +243,7 @@ export default function Home() {
                 pos={'relative'}>
                 <Image
                   rounded={'lg'}
-                  height={'auto'}
+                  height={'20vh'}
                   objectFit={'cover'}
                   alt={"project Image"}
                   src={'https://soulagain.crypto-elites.club/assets/images/nft/character1.gif'}
