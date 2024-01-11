@@ -72,8 +72,7 @@ export const guardChecker = async (
         label: eachGuard.label,
         allowed: false,
         reason: "Please connect your wallet to mint",
-        maxAmount: 0,
-        reasonClass: "reason",
+        maxAmount: 0
       });
     }
     return { guardReturn, ownedNfts: ownedTokens };
