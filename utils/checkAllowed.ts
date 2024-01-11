@@ -71,10 +71,7 @@ export const guardChecker = async (
       guardReturn.push({
         label: eachGuard.label,
         allowed: false,
-        reason: ( <span className="inheritFontSize">
-            "Please connect your wallet to mint"
-          </span>
-        ),
+        reason: "Please connect your wallet to mint",
         maxAmount: 0
       });
     }
