@@ -144,6 +144,8 @@ button.wallet-adapter-button-trigger:hover {
 .footer_social_links ul li {
   width: 5vw;
   height: 5vh;
+  min-width: 50px;
+  min-height: 50px;
   border-radius: 0.2rem;
   margin: 0.4rem;
   background: #02395D;
