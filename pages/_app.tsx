@@ -44,8 +44,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{headerText}</title>
         <link rel="icon" href="https://soulagain.crypto-elites.club/assets/images/fav.png" />
-        <link rel="stylesheet" type="text/css" href="https://soulagain.crypto-elites.club/assets/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="https://soulagain.crypto-elites.club/assets/css/responsive.css" />
       </Head>
       <ChakraProvider>
         <WalletProvider wallets={wallets}>
