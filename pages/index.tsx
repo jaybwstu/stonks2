@@ -252,10 +252,10 @@ export default function Home() {
             </Center>
             <div className="footer_social_links">
               <ul>
-                <li className="social_hov_shape_show">
+                <li>
                   <a href="https://www.facebook.com/cryptoelitesclub">
                     <svg viewBox="0 0 100 100" className="social_img">
-                      <use href="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" />
+                      <image xlinkHref="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" width="100%" height="100%" />
                     </svg>
                   </a>
                 </li>
