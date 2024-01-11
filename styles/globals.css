@@ -153,6 +153,10 @@ button.wallet-adapter-button-trigger:hover {
   align-items: center;
   justify-content: center;
 }
+.social_img {
+  height: fitcontent;
+  width: fit-content;
+}
 .footer {
   background-color: #02395d;
   height: 100px;
