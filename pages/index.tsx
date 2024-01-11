@@ -274,7 +274,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a href="https://twitter.com/crypto_e_club">
-                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" />
+                    <img className="social_img" src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" />
                   </a>
                 </li>
               </ul>
