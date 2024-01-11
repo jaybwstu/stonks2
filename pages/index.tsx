@@ -254,27 +254,37 @@ export default function Home() {
               <ul>
                 <li className="social_hov_shape_show">
                   <a href="https://www.facebook.com/cryptoelitesclub">
-                    <img className="social_img" src="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" alt="Facebook" />
+                    <svg viewBox="0 0 100 100" className="social_img">
+                      <use href="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" />
+                    </svg>
                   </a>
                 </li>
                 <li>
                   <a href="https://magiceden.io/marketplace/fluxsoulagain">
-                    <img className="social_img" src="https://soulagain.crypto-elites.club/assets/images/icon/MEden.svg" alt="Magic eden" />
+                    <svg viewBox="0 0 100 100" className="social_img">
+                      <use href="https://soulagain.crypto-elites.club/assets/images/icon/MEden.svg" />
+                    </svg>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.sniper.xyz/collection/soul-again">
-                    <img className="social_img" src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" />
+                    <svg viewBox="0 0 100 100" className="social_img">
+                      <use href="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" />
+                    </svg>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.tensor.trade/trade/fluxsoulagain">
-                    <img className="social_img" src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" />
+                    <svg viewBox="0 0 100 100" className="social_img">
+                      <use href="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" />
+                    </svg>
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/crypto_e_club">
-                    <img className="social_img" src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" />
+                    <svg viewBox="0 0 100 100" className="social_img">
+                      <use href="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" />
+                    </svg>
                   </a>
                 </li>
               </ul>
