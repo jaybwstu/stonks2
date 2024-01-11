@@ -215,6 +215,11 @@ export default function Home() {
                 font-size: 94px;
               }
             }
+            @media (max-width: 800px) {
+              body {
+                font-size: 20px;
+              }
+            }
    `}
         </style>
         <Card >
