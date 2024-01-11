@@ -264,7 +264,7 @@ export default function Home() {
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://www.sniper.xyz/collection/soul-again">
-                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" style="width= fit-content; height= fit-content;"/>
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" style="width: fit-content; height: fit-content;"/>
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
