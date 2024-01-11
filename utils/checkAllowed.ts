@@ -61,6 +61,10 @@ export const guardChecker = async (
   let guardsToCheck: { label: string; guards: GuardSet }[] = candyGuard.groups;
   guardsToCheck.push({ label: "default", guards: candyGuard.guards });
 
+  const messageStyle = {
+    fontSize: 'inherit',
+  };
+
   //no wallet connected. return dummies
   const dummyPublicKey = publicKey("11111111111111111111111111111111");
   if (
@@ -71,7 +75,11 @@ export const guardChecker = async (
       guardReturn.push({
         label: eachGuard.label,
         allowed: false,
-        reason: "Please connect your wallet to mint",
+        reason: (
+          <span style={messageStyle}>
+            Please connect your wallet to mint
+          </span>
+        ),
         maxAmount: 0
       });
     }
