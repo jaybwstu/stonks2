@@ -250,42 +250,36 @@ export default function Home() {
                 />
               </Box>
             </Center>
-            <div className="cec_v1_footer_sect">
-              <div className="container">
-                <div className="cec_v1_footer_content">
-                  <div className="footer_social_links">
-                    <ul>
-                      <li className="social_hov_shape_show">
-                        <a href="https://www.facebook.com/cryptoelitesclub">
-                          <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" alt="Facebook" /></span>
-                        </a>
-                      </li>
-                      <li className="social_hov_shape_show">
-                        <a href="https://magiceden.io/marketplace/fluxsoulagain">
-                          <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/MEden.svg" alt="Magic eden" /></span>
-                        </a>
-                      </li>
-                      <li className="social_hov_shape_show">
-                        <a href="https://www.sniper.xyz/collection/soul-again">
-                          <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" /></span>
-                        </a>
-                      </li>
-                      <li className="social_hov_shape_show">
-                        <a href="https://www.tensor.trade/trade/fluxsoulagain">
-                          <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" /></span>
-                        </a>
-                      </li>
-                      <li className="social_hov_shape_show">
-                        <a href="https://twitter.com/crypto_e_club">
-                          <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" /></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div className="footer_social_links">
+              <ul>
+                <li className="social_hov_shape_show">
+                  <a href="https://www.facebook.com/cryptoelitesclub">
+                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" alt="Facebook" /></span>
+                  </a>
+                </li>
+                <li className="social_hov_shape_show">
+                  <a href="https://magiceden.io/marketplace/fluxsoulagain">
+                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/MEden.svg" alt="Magic eden" /></span>
+                  </a>
+                </li>
+                <li className="social_hov_shape_show">
+                  <a href="https://www.sniper.xyz/collection/soul-again">
+                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" /></span>
+                  </a>
+                </li>
+                <li className="social_hov_shape_show">
+                  <a href="https://www.tensor.trade/trade/fluxsoulagain">
+                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" /></span>
+                  </a>
+                </li>
+                <li className="social_hov_shape_show">
+                  <a href="https://twitter.com/crypto_e_club">
+                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" /></span>
+                  </a>
+                </li>
+              </ul>
             </div>
-         
+          
             <Stack divider={<StackDivider />} spacing='8'>
               {loading ? (
                 <div>
