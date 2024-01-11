@@ -170,6 +170,10 @@ button.wallet-adapter-button-trigger:hover {
   position: fixed;
   bottom: 0px;
 }
+.reason {
+  font-size: inherit;
+  /* Add any other styles you need */
+}
 
 @media (min-width: 1440px) and (min-height: 810px) {
   
