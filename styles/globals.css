@@ -243,6 +243,16 @@ button.wallet-adapter-button-trigger:hover {
     width: 100%;
     padding-right: 20px; 
   }
+  button.wallet-adapter-button-trigger {
+    font-size: 1vh;
+  }
+  .social_img {
+    width: 5vw;
+    height: 5vh;
+  }
+  body {
+    font-size: 20px;
+  }
 }
 
 @media (max-height: 800px) {
