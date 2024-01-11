@@ -255,7 +255,7 @@ export default function Home() {
                 <li>
                   <a href="https://www.facebook.com/cryptoelitesclub">
                     <svg viewBox="0 0 100 100" className="social_img">
-                      <image xlinkHref="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" width="100%" height="100%" />
+                      <image src="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" width="100%" height="100%" />
                     </svg>
                   </a>
                 </li>
