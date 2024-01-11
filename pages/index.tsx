@@ -243,7 +243,7 @@ export default function Home() {
                 pos={'relative'}>
                 <Image
                   rounded={'lg'}
-                  height={'6rem'}
+                  height={'auto'}
                   objectFit={'cover'}
                   alt={"project Image"}
                   src={'https://soulagain.crypto-elites.club/assets/images/nft/character1.gif'}
@@ -254,27 +254,27 @@ export default function Home() {
               <ul>
                 <li className="social_hov_shape_show">
                   <a href="https://www.facebook.com/cryptoelitesclub">
-                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" alt="Facebook" /></span>
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/facebook.svg" alt="Facebook" />
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://magiceden.io/marketplace/fluxsoulagain">
-                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/MEden.svg" alt="Magic eden" /></span>
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/MEden.svg" alt="Magic eden" />
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://www.sniper.xyz/collection/soul-again">
-                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" /></span>
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/sniper.svg" alt="Sniper" />
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://www.tensor.trade/trade/fluxsoulagain">
-                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" /></span>
+                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" />
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://twitter.com/crypto_e_club">
-                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" /></span>
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/Twitter.svg" alt="Twitter" />
                   </a>
                 </li>
               </ul>
