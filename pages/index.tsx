@@ -269,7 +269,7 @@ export default function Home() {
                 </li>
                 <li className="social_hov_shape_show">
                   <a href="https://www.tensor.trade/trade/fluxsoulagain">
-                    <span><img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" />
+                    <img src="https://soulagain.crypto-elites.club/assets/images/icon/tensor.svg" alt="Tensor" />
                   </a>
                 </li>
                 <li className="social_hov_shape_show">
