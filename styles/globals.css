@@ -240,4 +240,8 @@ button.wallet-adapter-button-trigger:hover {
     max-height: 70px;
     height: 70px;
   }
+  .Navhome {
+    align-content: center;
+    flex-wrap: wrap;
+  }}
 }

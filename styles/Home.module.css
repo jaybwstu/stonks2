@@ -150,3 +150,9 @@
     height: 70px;
   }
 }
+@media (max-height: 500px) {
+  .center {
+    margin: 1rem auto;
+    padding-bottom: 5rem;
+  }
+}
