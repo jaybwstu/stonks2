@@ -354,7 +354,7 @@ export default function Home() {
             <a href="https://soulagain.crypto-elites.club/">
               <img className="logo" src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
             </a>
-            <a href="https://runonflux.io/fluxlabs.html">
+            <a href="https://runonflux.io/fluxLabs">
               <img className="logo-flux" src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
             </a>
           </div>

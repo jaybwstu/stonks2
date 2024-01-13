@@ -192,6 +192,9 @@ button.wallet-adapter-button-trigger:hover {
   .Navhome {
     display: none;
   }
+  .h-cont {
+    padding: 0px 10px;
+  }
   .logo {
     max-height: 90px;
     height: 90px;
@@ -202,22 +205,30 @@ button.wallet-adapter-button-trigger:hover {
   }
   .left-sect {
     width: 100%;
-    padding-right: 20px; 
-  }
-  button.wallet-adapter-button-trigger {
-    font-size: 3vh;
+    padding-right: 10px; 
   }
   .social_img {
     width: 5vw;
     height: 5vh;
+  }
+  .footer_social_links ul li {
+    margin: 0.2rem;
   }
   body {
     font-size: 20px;
   }
 }
 
-@media (max-height: 800px) {
-  .footer {
-    position: relative;
+@media (max-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+  .left-sect {
+    padding-right: 5px;
+}
+  .footer_social_links ul li {
+    min-width: 40px;
+    min-height: 40px;
+    
   }
 }
