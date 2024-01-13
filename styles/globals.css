@@ -44,19 +44,16 @@ a {
 }
 
 button.wallet-adapter-button-trigger {
-  line-height: 1.45;
-}
-button.wallet-adapter-button-trigger {
   cursor: pointer;
   display: flex;
-  width: 10%;
+  width: 12%;
   justify-content: center;
   color: #FBF3E2 !important;
   border: 1px solid #BA4564 !important;
   border-radius: 2.2rem;
   background-color: #BA4564;
   font-family: acier-bat-solid;
-  font-size: 1.5vh;
+  font-size: inherit;
   height: fit-content;
 }
 
