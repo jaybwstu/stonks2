@@ -232,3 +232,12 @@ button.wallet-adapter-button-trigger:hover {
     
   }
 }
+@media (max-height: 800px) {
+  .Navhome, .h-cont, .footer {
+    height: 70px;
+  }
+  .logo, .logo-flux {
+    max-height: 70px;
+    height: 70px;
+  }
+}
