@@ -136,8 +136,11 @@ button.wallet-adapter-button-trigger:hover {
   bottom: 0px;
 }
 
-@media (min-width: 1440px) and (min-height: 810px) {
-  
+@media (max-width: 1440px) {
+  button.wallet-adapter-button-trigger {
+    width: 15%;
+    font-size: 1.3vh;
+}
 }
 
 @media (min-width: 1920px) and (min-height: 1080px) {
@@ -207,11 +210,11 @@ button.wallet-adapter-button-trigger:hover {
     height: 90px;
   }
   .left-sect {
-    width: 100%;
+    width: 60%;
     padding-right: 10px; 
   }
   button.wallet-adapter-button-trigger {
-    width: 5%;
+    width: 40%;
   }
   .social_img {
     width: 5vw;
