@@ -187,6 +187,9 @@ button.wallet-adapter-button-trigger:hover {
   .Navhome, .footer {
     font-size: 70px;
   }
+  button.wallet-adapter-button-trigger {
+    font-size: 1.5vh;
+  }
 }
 @media (max-width: 800px) {
   .Navhome {
@@ -243,5 +246,5 @@ button.wallet-adapter-button-trigger:hover {
   .Navhome {
     align-content: center;
     flex-wrap: wrap;
-  }}
+  }
 }
