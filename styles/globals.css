@@ -48,12 +48,15 @@ button.wallet-adapter-button-trigger {
 }
 button.wallet-adapter-button-trigger {
   cursor: pointer;
+  display: flex;
+  width: 10%;
+  justify-content: center;
   color: #FBF3E2 !important;
   border: 1px solid #BA4564 !important;
   border-radius: 2.2rem;
   background-color: #BA4564;
   font-family: acier-bat-solid;
-  font-size: 2vh;
+  font-size: 1.5vh;
   height: fit-content;
 }
 
@@ -187,9 +190,6 @@ button.wallet-adapter-button-trigger:hover {
   .Navhome, .footer {
     font-size: 70px;
   }
-  button.wallet-adapter-button-trigger {
-    font-size: 1.5vh;
-  }
 }
 @media (max-width: 800px) {
   .Navhome {
@@ -209,6 +209,9 @@ button.wallet-adapter-button-trigger:hover {
   .left-sect {
     width: 100%;
     padding-right: 10px; 
+  }
+  button.wallet-adapter-button-trigger {
+    width: 5%;
   }
   .social_img {
     width: 5vw;
