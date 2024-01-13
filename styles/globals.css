@@ -43,22 +43,17 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
 button.wallet-adapter-button-trigger {
   line-height: 1.45;
 }
 button.wallet-adapter-button-trigger {
   cursor: pointer;
-  color: rgb(var(--foreground-rgb)) !important;
-  border: 1px solid rgb(var(--tertiary-background-rgb)) !important;
+  color: #FBF3E2 !important;
+  border: 1px solid #BA4564 !important;
   border-radius: 2.2rem;
   background-color: #BA4564;
   font-family: acier-bat-solid;
-  font-size: 2.5vh;
+  font-size: 2vh;
   height: fit-content;
 }
 
