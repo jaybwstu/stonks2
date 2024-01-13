@@ -54,6 +54,7 @@ button.wallet-adapter-button-trigger {
   background-color: #BA4564;
   font-family: acier-bat-solid;
   height: fit-content;
+  font-size: 1.5vh;
 }
 
 button.wallet-adapter-button-trigger:hover {
@@ -168,6 +169,9 @@ button.wallet-adapter-button-trigger:hover {
   .Navhome, .footer {
     font-size: 47px;
   }
+  utton.wallet-adapter-button-trigger {
+    font-size: 1.2vh;
+  }
 }
 
 @media (min-width: 3840px) and (min-height: 2160px) {
@@ -187,6 +191,9 @@ button.wallet-adapter-button-trigger:hover {
   }
   .Navhome, .footer {
     font-size: 70px;
+  }
+  button.wallet-adapter-button-trigger {
+    font-size: 1vh;
   }
 }
 @media (max-width: 800px) {
