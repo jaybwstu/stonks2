@@ -150,6 +150,9 @@ button.wallet-adapter-button-trigger:hover {
   .h-cont, .footer {
     font-size: 33px;
   }
+  button.wallet-adapter-button-trigger {
+    font-size: 1.3vh;
+}
 }
 
 @media (min-width: 2560px) and (min-height: 1440px) {
