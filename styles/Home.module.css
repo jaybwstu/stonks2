@@ -145,3 +145,8 @@
     height: 298px;
   }
 }
+@media (max-height: 800px) {
+  .wallet { 
+    height: 70px;
+  }
+}
